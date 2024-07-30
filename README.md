@@ -23,3 +23,30 @@ A simple airplane PCB to teach the principles of the 555 timer IC and astable mo
 | 2k ohm Axial Resistor      | [Amazon Link](https://amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB31M4/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
 | SPDT Slide Switch          | [Amazon Link](https://www.amazon.com/HiLetgo-SS-12D00-Toggle-Switch-Vertical/dp/B07RTJDW27/ref=sr_1_2?sr=8-2) |
 | 10k Potentiometer          | [Amazon Link](https://www.amazon.com/Potentiometer-Breadboard-Resistors-Assortment-Compatible/dp/B09G9TBY38/ref=sr_1_9?sr=8-9) |
+
+## Design Analysis: Pulse Time and Duty Cycle Determination
+
+The duty cycle of a circuit is ratio of the time the signal is active (high) to the total period of the signal. 
+We want the duty cycle of this circuit to be close to 50% in order to get a congruent off/on blinking pattern form the airplane LEDs.
+
+*R1:R2 ratio predominately is what sets the duty cycle for the circuit*
+
+#### Output High Time Interval of Pulse
+
+$$
+t_h = ln(2) * (R_1 + R_2) * C
+$$
+
+#### Output Low Time Interval of Pulse
+
+$$
+t_l = ln(2) * R_2 * C
+$$
+
+Given the above equations describing the HIGH and LOW times of the pulse sequence, I was able to determine the resistor values for the PCB to be following:
+
+```
+R1 =
+
+R2 = 
+```
