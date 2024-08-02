@@ -776,7 +776,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 75d2cd15-1713-4559-ab29-1d21a66a4620)
   )
-  (text "100kΩ" (at 87.63 43.18 0)
+  (text "10kΩ" (at 87.63 43.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7776d444-4e24-429b-8318-f80362363e27)
   )
