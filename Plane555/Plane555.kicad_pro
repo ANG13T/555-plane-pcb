@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 7.0,
+          "height": 4.0,
+          "width": 7.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -456,7 +456,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -469,7 +469,7 @@
   },
   "sheets": [
     [
-      "c2a5e95f-1345-4968-8179-de420598bd25",
+      "48a961da-ffe9-40b5-a21e-4b6c164fbc55",
       ""
     ]
   ],

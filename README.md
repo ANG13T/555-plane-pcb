@@ -19,10 +19,10 @@ A simple airplane PCB to teach the principles of the 555 timer IC and astable mo
 | 10uF Electrolytic Capacitor| [Amazon Link](https://www.amazon.com/Capacitors-5x11mm-Aluminum-Electrolytic-Capacitor/dp/B0C4DHZV7J/ref=sr_1_5?sr=8-5) |
 | 3V Coin Cell Battery        | [Amazon Link](https://www.amazon.com/LiCB-CR2032-Lithium-Battery-10-Pack/dp/B071D4DKTZ/ref=sr_1_8?sr=8-8) |
 | 3V Coin Cell Battery Holder | [Amazon Link](https://www.amazon.com/bnafes-Surface-CR2032-Button-Battery/dp/B09KG8S6Z9/ref=sr_1_3?sr=8-3) |
-| 1.2k ohm Axial Resistor    | [Amazon Link](https://www.amazon.com/Resistor-Tolerance-Resistors-Limiting-Certificated/dp/B08QRLJJMC/ref=sr_1_2?crid=1XO8TBOSAJE5G&dib=eyJ2IjoiMSJ9.J3auG2H4WZTOObK24EMEwMHixvXQSgTAiXmCLPUavk8lEBMYc0UgROmcN-fGNpdqcrTDksYpao5EO3ZdPUwKgKXEfbjg4xZHU3bvYozqyGLjhxVkTzp7j7RoQ0sKGPukwDZppi5YI-SRhVc-4V5K9H3FRc-dGQocXg5JyDqY8zOzu9vHjxXS9hii6lWyJLlg60AJXZD8loqtqa-kVq2q2vHkEpv_SoRb3CLDACrcsNE.qBvZuAiz1Tx_7UBDNaSkkvGUZpht9CtA_XDBnFLCsCs&dib_tag=se&keywords=1.2k+ohm+Axial+Resistor&qid=1725355536&sprefix=1.2k+ohm+axial+resistor%2Caps%2C199&sr=8-2) |
-| 90 ohm Axial Resistor      | [Amazon Link](https://www.amazon.com/Resistor-Tolerance-Resistors-Limiting-Certificated/dp/B08QRCQY4J/ref=sr_1_1?crid=2P65OJP9ZBERH&dib=eyJ2IjoiMSJ9.x79ivvPhUMsOgn0mwYi9Hb9uRK6pI78LsWD1ODuvME31esHscaQ3XmQ6eRmgyCy8LNcIgHTpyCCOhpXpfFwZ4K6o7sdwaiVad6_RpKEA4FGb4V3TpdmGCvB_mnqf3u24kWs74CwBAMsMFL_6uiWd0rEt5OHJ3l9ea84o8HbqdsTJDhKgy9QlfBLbPQ22ZGJuqqiGYy0TaaCtAksy3y2Xbt0wpDdHxEzHFQIcbKdhO80.uUqVKTISPma7kuN_FFYvuO3TUlLL1qIimxFYdXzapwc&dib_tag=se&keywords=90+ohm+Axial+Resistor%3A&qid=1725355502&sprefix=resistor+kit%2Caps%2C448&sr=8-1) |
+| 100k ohm Axial Resistor    | [Amazon Link](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QK9793W/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
+| 2k ohm Axial Resistor      | [Amazon Link](https://amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB31M4/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
 | SPDT Slide Switch          | [Amazon Link](https://www.amazon.com/HiLetgo-SS-12D00-Toggle-Switch-Vertical/dp/B07RTJDW27/ref=sr_1_2?sr=8-2) |
-| 100k Potentiometer          | [Amazon Link](https://www.amazon.com/Sscon-Breadboard-Potentiometer-Arduino-3386MP-104/dp/B07QZ67C2K/ref=sr_1_9?crid=2Q0OB7FIJKUU1&dib=eyJ2IjoiMSJ9.ALke2vkdw7lw76jKYVkSClADKMUWpDwLt9F9fBt9kANdQOxKkSMRoLvK76evAaEMBJGv3oWoc8ovCdX2RCvYZAAW5Tj4AbflrHdmW93cn4yD62liEbXnU9AmyE0mp6pLo1DvB4yUYAyy4ATBrHct-sTnE3Z8m04pFxvhDt6R8w5xZ76kbbcxzj4s_I2-FKSanbE5Ls2nP-mXaQ69XZrV-E2VMvNiinxDPVepDnqBE_I.dU7tQpuBAAKw9xvEH3SvLnyW_zsAgCWHLjo5D9JwQsY&dib_tag=se&keywords=trim%2B100k%2BPotentiometer&qid=1725355575&sprefix=trim100k%2Bpotentiometer%2Caps%2C143&sr=8-9&th=1) |
+| 10k Potentiometer          | [Amazon Link](https://www.amazon.com/Potentiometer-Breadboard-Resistors-Assortment-Compatible/dp/B09G9TBY38/ref=sr_1_9?sr=8-9) |
 
 ## Design Analysis: Pulse Time and Duty Cycle Determination
 
@@ -42,3 +42,11 @@ $$
 $$
 t_l = ln(2) * R_2 * C
 $$
+
+Given the above equations describing the HIGH and LOW times of the pulse sequence, I was able to determine the resistor values for the PCB to be following:
+
+```
+R1 =
+
+R2 = 
+```
